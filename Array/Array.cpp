@@ -16,8 +16,8 @@ public:
 };
 
 // Method to input book details
-void library::getdata()
-{
+void library::getdata(){
+    
     cout << "Enter Book Id: " << endl;
     cin >> id;
     cin.ignore();  // Clear the input buffer
